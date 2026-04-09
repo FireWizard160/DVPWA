@@ -1,0 +1,3 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_cwe,issue_text,line_number,col_offset,end_col_offset,line_range,more_info
+.\sqli\dao\student.py,hardcoded_sql_expressions,B608,MEDIUM,LOW,https://cwe.mitre.org/data/definitions/89.html,Possible SQL injection vector through string-based query construction.,42,13,34,"[42, 43]",https://bandit.readthedocs.io/en/1.7.10/plugins/b608_hardcoded_sql_expressions.html
+.\sqli\dao\user.py,blacklist,B303,MEDIUM,HIGH,https://cwe.mitre.org/data/definitions/327.html,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",41,32,61,[41],https://bandit.readthedocs.io/en/1.7.10/blacklists/blacklist_calls.html#b303-md5
